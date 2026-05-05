@@ -182,6 +182,28 @@ if (isset($_GET['s1'])) {
             border-radius: 8px;
         }
 
+        .right .carousel {
+            width: 100%;
+            max-width: 650px;
+        }
+
+        .right .carousel .carousel-inner {
+            width: 100%;
+            height: 450px;
+        }
+
+        .right .carousel .carousel-item {
+            width: 100%;
+            height: 100%;
+        }
+
+        .right .carousel .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
         .right .carousel .carousel-indicators li{
             background-color: gray;
         }
@@ -203,7 +225,6 @@ if (isset($_GET['s1'])) {
             .right {
                 margin-bottom: 4rem;
             }
-
 
         }       
         
@@ -285,22 +306,22 @@ if (isset($_GET['s1'])) {
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="/assets/images/v1.png" alt="First slide">
+                    <img class="d-block w-100" src="/assets/images/p1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/assets/images/v2.png" alt="Second slide">
+                    <img class="d-block w-100" src="/assets/images/p2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/assets/images/v3.png" alt="Third slide">
+                    <img class="d-block w-100" src="/assets/images/p3.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/assets/images/v4.png" alt="Third slide">
+                    <img class="d-block w-100" src="/assets/images/p4.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/assets/images/v5.png" alt="Third slide">
+                    <img class="d-block w-100" src="/assets/images/p5.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="/assets/images/v6.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="/assets/images/p6.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
